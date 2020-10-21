@@ -11,12 +11,12 @@ import Drawer from "@material-ui/core/Drawer";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
-import ControlPanel from "../features/ControlPanel/ControlPanel.jsx";
-import ResultList from "../features/ResultList/ResultList.jsx";
 import AccountCard from "../features/AccountPanel/AccountCard.jsx";
+import AccountPanel from "../features/AccountPanel/AccountPanel.jsx";
+
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import "./../assets/stylesheets/App.css";
-import { teal } from "@material-ui/core/colors";
+// import { teal } from "@material-ui/core/colors";
 
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
@@ -95,6 +95,7 @@ const App = () => {
 			</div>
 
 			<AccountCard name={"AccountNma"} bal={"Moneeey"}/>
+			<AccountPanel />
 
 			<AppBar className={classes.footer} container spacing={1}>
 				<Button variant='contained' className={classes.newAccount}>

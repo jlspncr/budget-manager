@@ -9,28 +9,24 @@ export const controlPanel = [
 	},
 ];
 
-export const accountPanel =[
+export const accounts = [
+	// totalBalance: 0,
+		{
+		Name: "Account1",
+		Balance: 500,
+		Categories: {
+			Debts: 0,
+			Dining: 0,
+			Housing: 0,
+		},
+	},
 	{
-		totalBalance: 0,
-		accounts: [
-			{
-				Name: "Account1",
-				Balance: 0.0,
-				Categories: {
-					Debts: 0,
-					Dining: 0,
-					Housing: 0,
-				},
-			},
-			{
-				Name: "Account2",
-				Balance: 0.0,
-				Categories: {
-					Debts: 0,
-					Dining: 0,
-					Housing: 0,
-				},
-			}
-		],
+		Name: "Account2",
+		Balance: 10.2,
+		Categories: {
+			Debts: 0,
+			Dining: 0,
+			Housing: 0,
+		},
 	},
 ];
