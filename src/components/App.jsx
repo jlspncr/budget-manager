@@ -94,7 +94,6 @@ const App = () => {
 				</Drawer>
 			</div>
 
-			<AccountCard name={"AccountNma"} bal={"Moneeey"}/>
 			<AccountPanel />
 
 			<AppBar className={classes.footer} container spacing={1}>

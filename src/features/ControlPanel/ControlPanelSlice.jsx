@@ -1,5 +1,5 @@
 import { createSlice, combineReducers } from "@reduxjs/toolkit";
-import { controlPanel } from "../../assets/data/data.js";
+import { controlPanel } from "../../assets/data/data.jsx";
 
 // const initialState = [
 // 	{

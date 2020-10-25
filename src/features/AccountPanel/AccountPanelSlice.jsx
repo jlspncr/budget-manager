@@ -1,7 +1,7 @@
 import { createSlice, combineReducers } from "@reduxjs/toolkit";
-import { accountPanel } from "../../assets/data/data.js";
+import { accounts } from "../../assets/data/data.jsx";
 
-const initialState = accountPanel;
+const initialState = accounts;
 
 const AccountPanelSlice = createSlice({
   name: "accounts",
@@ -30,4 +30,11 @@ const AccountPanelSlice = createSlice({
 
 
   }
-})
+});
+
+export const {
+  addAccount,
+
+} = AccountPanelSlice.actions;
+
+export default AccountPanelSlice.reducer;

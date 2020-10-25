@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid"
 import Typography from "@material-ui/core/Typography";
 
 import AccountCard from "../AccountPanel/AccountCard.jsx";
-import {accounts} from "../../assets/data/data.js";
+import {accounts} from "../../assets/data/data";
 
 
 const useStyles = makeStyles((theme) => ({
